@@ -43,6 +43,7 @@ function ProductsComponent({ products, filters, filtersApplied: { categories, su
                             />
                         )
                     }
+                    return null;
                 })
             }
         </div>

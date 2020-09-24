@@ -32,6 +32,7 @@ function processProductsData(data) {
         }
         
         products.push(prod);
+        return null;
     });
 
     return { filters, products };
